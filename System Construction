@@ -1,1 +1,12 @@
 
+Download & install VirtualBox
+Download Ubuntu image
+Import the Ubuntu image to the VirtualBox and configure the network
+  NAT [Network Address Translation] (default mode): use the host ip
+                      virtual machine -> host
+                      virtual machine -> external internet (if host can access the external internet)
+                      DHCP -> virtual machine IP
+  NAT Network: plus function based on NAT
+               virtual machine <-> virtual machine
+               vritual machine <- host (if port forwarding is configured)
+  Bridge : 
