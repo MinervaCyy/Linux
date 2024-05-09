@@ -11,5 +11,5 @@ Import the Ubuntu image to the VirtualBox and configure the network
                virtual machine <- host (if port forwarding is configured)
   Bridge : regarded as a host in the lan, IP  can belong to the same network segment as the IP address of the physical network adapter of the host machine.  
           virtual machine <-> host 
-          virtual machine <-> other server in the Lan of the host
+          virtual machine <-> other server in the LAN of the host
           virtual machine -> external internet
